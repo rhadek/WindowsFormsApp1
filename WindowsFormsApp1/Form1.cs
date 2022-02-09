@@ -21,8 +21,7 @@ namespace WindowsFormsApp1
         {
             int c = Convert.ToInt32(textBox1.Text);
             int fak = 1;
-            bool en = false;
-            for (int i = c; i > 0; i--)
+            for (int i = c; i > 1; i--)
             {
                 fak *= i;
             }
