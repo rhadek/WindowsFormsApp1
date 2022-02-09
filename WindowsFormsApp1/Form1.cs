@@ -16,5 +16,17 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int c = Convert.ToInt32(textBox1.Text);
+            int fak = 1;
+            bool en = false;
+            for (int i = c; i > 0; i--)
+            {
+                fak *= i;
+            }
+            label1.Text = (fak).ToString();
+        }
     }
 }
